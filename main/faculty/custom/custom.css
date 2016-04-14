@@ -7,14 +7,21 @@ body {
 }
 
 table {
-  margin: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
   width: 100%;
   padding: 10px;
 }
 
 tr:nth-child(odd)
-{background-color: #212121}
+{background-color: #21212}
+
+tr {
+  padding: 10px;
+}
+
 
 th {
   text-align: center;
+  padding: 10px;
 }
