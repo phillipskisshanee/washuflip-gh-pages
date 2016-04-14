@@ -15,17 +15,6 @@
   text-decoration: none;
 }
 
-/*modal*/
-.modal {
-    max-width: 800px;
-    min-width: 300px;
-    width: auto;
-}
-
-.modal img {
-  width: 100%;
-}
-
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
