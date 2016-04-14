@@ -10,7 +10,7 @@ table {
   margin: 100px;
 }
 
-tr:nth-child(even)
+tr:nth-child(odd)
 {background-color: #212121}
 
 th {
