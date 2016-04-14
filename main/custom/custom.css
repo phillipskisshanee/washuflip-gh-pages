@@ -18,6 +18,11 @@
 
 h2 {
     color: #b83937 ;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
 }
 
 /* GLOBAL STYLES
