@@ -29,6 +29,11 @@ p.lead {
     text-align: center;
 }
 
+div.container marketing {
+    background-color: #897466;
+    
+}
+
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
