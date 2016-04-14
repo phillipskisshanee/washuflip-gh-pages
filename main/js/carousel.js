@@ -1,7 +1,7 @@
     <!-- Carousel -->
     <script language="JavaScript" type="text/javascript">
   $(document).ready(function(){
-    $('.carousel').carousel({
+    $('.myCarousel').carousel({
       interval: 2000
     })
   });    
