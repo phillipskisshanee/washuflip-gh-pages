@@ -30,9 +30,70 @@
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
   </head>
-<!-- NAVBAR
-================================================== -->
   <body>
+    
+  <!-- FORM
+================================================== -->
+<div id="img1" style="display:none;">
+
+      <h2>Become a member of our team!</h2>
+
+      <form action="//formspree.io/phillips.kisshanee@gmail.com" method="POST">
+        <input type="hidden" name="_next" value="//phillipskisshanee.github.io/washuflip-gh-pages/main/index.html" />
+        <input type="hidden" name="_subject" value="New submission!" />
+        <div>
+          <label>Name</label>
+          <input type="text" name="Name" value="Who are you?">
+        </div>
+        <div>
+          <label>Email</label>
+          <input type="text" name="Mail" value="Contact info?">
+        </div>
+        <div>
+          <label>Phone Number</label>
+          <input type="text" name="Phone number" value="How can we reach you?">
+        </div>
+        <div>
+          <label>Qualifications</label>
+          <input type="text" name="comment" value="Tell us about yourself?" size="50">
+        </div>
+        <div>
+          <label>Reason</label>
+          <input type="text" name="comment" value="Why do you want to join us?" size="50">
+        </div>
+        <div>
+          <input type="Submit" value="Send">
+        </div>
+      </form>
+    </div>
+    
+    <div id="img2" style="display:none;">
+
+      <h2>Let's us know how we can improve!</h2>
+
+      <form action="//formspree.io/phillips.kisshanee@gmail.com" method="POST">
+        <input type="hidden" name="_next" value="//phillipskisshanee.github.io/washuflip-gh-pages/main/index.html" />
+        <input type="hidden" name="_subject" value="New submission!" />
+        <div>
+          <label>Name</label>
+          <input type="text" name="Name" value="Who are you?">
+        </div>
+        <div>
+          <label>Email</label>
+          <input type="text" name="Mail" value="Contact info?">
+        </div>
+        <div>
+          <label>Comment</label>
+          <input type="text" name="Business Name" value="Tell us your suggestions" size="50">
+        </div>
+        <div>
+          <input type="Submit" value="Send">
+        </div>
+      </form>
+
+    </div>
+  <!-- NAVBAR
+================================================== -->
     <div class="navbar-wrapper">
       <div class="container">
         <nav class="navbar navbar-default navbar-fixed-top">
@@ -161,6 +222,7 @@
         <div class="col-md-7">
           <h2 class="featurette-heading">Interested in joining our department? <span class="text-muted">Apply today!</span></h2>
           <p class="lead"> The Department of Sociology is looking to hire qualified falculty members who are passionate about knowledge and want to be a part of our department growth.</p>
+          <a href="#img1" rel="modal:open" class="button">JOIN US! </a>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive center-block" src="../images/fac2.jpg" alt="Join Us">
@@ -173,6 +235,7 @@
         <div class="col-md-7 col-md-push-5">
           <h2 class="featurette-heading">Do you have suggestions for the department? <br /><span class="text-muted">Tell us now!</span></h2>
           <p class="lead"> With the Department of Sociology being a new area of study at the University, we are focused on making this field the best it can be. Let's us know how we can improve.</p>
+          <a href="#img2" rel="modal:open" class="button">WRITE US NOW! </a>
         </div>
         <div class="col-md-5 col-md-pull-7">
           <img class="featurette-image img-responsive center-block" src="../images/write1.jpg" alt="Write Us">
