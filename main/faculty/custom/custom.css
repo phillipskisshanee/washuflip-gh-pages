@@ -8,6 +8,8 @@ body {
 
 table {
   margin: 100px;
+  width: 100%;
+  padding: 10px;
 }
 
 tr:nth-child(odd)
