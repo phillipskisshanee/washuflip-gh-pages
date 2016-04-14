@@ -5,3 +5,15 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
+
+th, td {
+  border-bottom: 1px
+  solid #ddd;
+}
+tr:nth-child(even)
+{background-color: #f2f2f2}
+
+
+th {
+  text-align: center;
+}
