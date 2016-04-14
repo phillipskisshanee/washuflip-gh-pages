@@ -32,9 +32,8 @@ body {
   background-color: #333;
   background-image: url("../images/001.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
 }
+
 }
 body {
   color: #4D946A;
